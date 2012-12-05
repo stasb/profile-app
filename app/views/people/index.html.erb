@@ -1,0 +1,9 @@
+<h1>Profiles</h1>
+
+<% @people.each do |person| %>
+  <h2>    
+    <%= link_to person.name, person %>
+  </h2>
+<% end %>
+
+<%= link_to 'New Person', new_person_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  sub_headline: MyString
+  about: MyText
+  favourite_music: MyText
+  favourite_quotes: MyText
+  favourite_websites: MyText
+
+two:
+  name: MyString
+  sub_headline: MyString
+  about: MyText
+  favourite_music: MyText
+  favourite_quotes: MyText
+  favourite_websites: MyText

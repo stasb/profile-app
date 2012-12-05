@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @person.name %>
+</p>
+
+<p>
+  <b>Sub headline:</b>
+  <%= @person.sub_headline %>
+</p>
+
+<p>
+    <% if @person.has_photo? %>
+      <%= image_tag @person.photo_path %>
+    <% else %>
+      No Photo.
+    <% end %>
+</p>
+    
+<p>
+  <b>About:</b>
+  <%= @person.about %>
+</p>
+
+<p>
+  <b>Favourite music:</b>
+  <%= @person.favourite_music %>
+</p>
+
+<p>
+  <b>Favourite quotes:</b>
+  <%= @person.favourite_quotes %>
+</p>
+
+<p>
+  <b>Favourite websites:</b>
+  <%= @person.favourite_websites %>
+</p>
+
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>

@@ -1,0 +1,18 @@
+// Place all the styles related to the People controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$main-orange: #ffa200;
+$google-typeface-1: 'Tienne', serif;
+
+h1 {
+	color: $main-orange;
+	font-family: $google-typeface-1;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+h2, a, p {
+	font-family: $google-typeface-1;
+}
